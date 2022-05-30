@@ -16,11 +16,8 @@ body{
     'two     two '100vh
     'three   three'100vh
     'maini maini'auto
-    /* 'four five'70vh
-    'six seven'70vh
-    'eight nine'70vh */
     'ten ten'50vh
-    'eleven eleven'65vh
+    'eleven eleven'55vh
     'footer footer'5vh/
     50% 50%
 
@@ -32,11 +29,14 @@ body{
     grid-area: maini;
     display: grid;
     grid-template: 
-    'four five'70vh
-    'six seven'70vh
-    'eight nine'70vh;
-    row-gap: 0.9%;
+    'four five'80vh
+    'six seven'80vh
+    'eight nine'80vh/
+    49.4% 49.4%;
+    row-gap: 0.8%;
     column-gap: 0.9%;
+    margin-left: 0.6%;
+    margin-right: 0.6%;
     
 }
 .container{
@@ -125,6 +125,7 @@ body{
     padding: 0;
     justify-self: end;
 }
+
 .unilink{
     grid-area: unilink;
  justify-self: start;
@@ -179,6 +180,9 @@ body{
     padding-right: 2%;
     padding-top: 1.5%;
 }
+.links a:hover{
+    text-decoration: underline;
+}
 .iphn13{
     width: 50%;
     display: block;
@@ -189,10 +193,11 @@ body{
     
 }
 .two{
+    display: grid;
     grid-area: two;
     background-color: #ffffff;
     text-align: center;
-    display: grid;
+   
 }
 .twoh2{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
@@ -200,13 +205,14 @@ body{
     font-size: 48px;
     padding-top: 3.5%;
     font-weight: 600;
-
+    display: inline-block;
 }
 .twoh3{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
     font-size: 24px;
     font-weight: 400;
     padding-top: 0.7%;
+    display: inline-block;
 
 }
 .macbook{
@@ -226,7 +232,7 @@ body{
     display: grid;
 }
 .twoh3{
-    padding-top: 100px
+    padding-top: 1%;
 }
 .se{
     display: block;
@@ -248,36 +254,168 @@ body{
     font-size: 24px;
     font-weight: 400;
     padding-top: 0.7%;
+    display: inline-block;
 
 }
+
 
 
 
 
 .four{
+    
     grid-area: four;
-    background-color: blanchedalmond;
+    display: grid;
+    background-image:url(./images/promo_wwdc_endframe__bv9ueo3vzmvm_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    height: 100%;
+  
 }
+
+
+
+.wwdc{
+    text-align: center;
+}
+.wwdcpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    /* width: 30%; */
+    padding-bottom: 1.5%;
+
+    
+    
+}
+.hwwdc{
+    color:#c6e1e6;
+    font-size: 21px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-justify: center;
+    /* padding-top: 30%; */
+}
+
 .five{
     grid-area: five;
-    background-color: orangered;
+    background-image: url(./images/promo_trade_in_may_2022__bbvnbfzoqzxu_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.linksfive{
+    text-align: center;
+}
+.linksfive a{
+    display: inline-block;
+    text-decoration: none;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding-right: 2%;
+    padding-top: 1.5%;
+
+
+}
+.linksfive a:hover{
+    text-decoration: underline;
+}
+.savings{
+    display: block;
+    text-align: center;
+    color: #bf4800;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 5%;
+}
+.savings1{
+    padding-top: 1%;
+    color: #1d1d1f;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.savings2{
+    color:#5b5b5d;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .six{
     grid-area: six;
-    background-color: blueviolet;
+    display: grid;
+    background-image: url(./images/privacy__fzwalkil8paq_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+
 }
+.six h4{
+    color: #f5f5f7;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: inline-block;
+    text-align: center;
+   padding-top: 7%;
+
+}
+
+.linkssix a{
+    display: block;
+    text-decoration: none;
+    color: #f5f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 60%;
+    
+   
+    
+
+}
+.linkssix a:hover{
+   text-decoration: underline;
+}
+
+
 .seven{
-    grid-area: seven;
-    background-color: fuchsia;
+    background-image: url(./images/promo_watch_lte__djeaso7ukrsm_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+
+
+
 }
 .eight{
-    grid-area: eight;
-    background-color: lightgreen;
-    padding-bottom: 50px;
+    display: grid;
+    background-image:url(./images/tile__cauwwcyyn9hy_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    height: 100%;
 }
 .nine{
     grid-area: nine;
-    background-color: darkturquoise;
+    display: grid;
+    background-image:url(./images/promo_pride__6iq9ryajnw2q_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    height: 100%;
+    
 
 }
 .ten{
