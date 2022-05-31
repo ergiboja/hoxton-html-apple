@@ -551,8 +551,8 @@ body{
     grid-auto-flow: column;
     height: 100%;
     font-size: 12px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     align-content: flex-start;
     justify-content: space-between;
 
