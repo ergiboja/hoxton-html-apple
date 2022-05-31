@@ -16,7 +16,7 @@ body{
     'two     two '100vh
     'three   three'100vh
     'maini maini'auto
-    'ten ten'50vh
+    'ten ten'70vh
     'eleven eleven'55vh
     'footer footer'5vh/
     50% 50%
@@ -503,13 +503,6 @@ body{
     text-decoration: underline;
 }
 
-
-
-
-.eleven{
-    grid-area: eleven;
-    background-color: #f5f5f7;
-}
 .footer{
     grid-area: footer;
     background-color: #f5f5f7;
@@ -523,6 +516,7 @@ body{
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
     
     
     
@@ -549,6 +543,68 @@ body{
     color:#818183;
 
 }
+.eleven{
+    grid-area: eleven;
+    background-color: #f5f5f7;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    height: 100%;
+    font-size: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: flex-start;
+    justify-content: space-between;
+
+}
+.eleven a{
+    font-size:12px ;
+    color: #818183;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    padding: 2%;
+}
+.eleven a:hover{
+text-decoration: underline;
+}
+.footer-coltitle {
+    font-size:12px ;
+    width: 100%;
+    color: #808080;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+   
+}
+.footercolumn{
+    display: grid;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    
+}
+.footercolumn1{
+    display: grid;
+
+}
+.footercolumn2{
+    display: grid;
+    
+
+}
+.footercolumn4{
+    display: grid;
+   
+   
+}
+.footercolumn5{
+    display: grid;
+
+}
+.footercolumn6{
+display: grid;
+}
+
+
+
+
 .leftsite:hover{
     text-decoration: underline;
 }
